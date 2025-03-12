@@ -1,0 +1,122 @@
+:root {
+    --text-color: #333;
+    --main-color: #007bff;
+    --font-choice: 'Roboto', sans-serif;
+    --responsive-padding: 1rem;
+    --article-width: 1024px;
+}
+
+html, body{
+    margin:0;
+    padding:0;
+    color: var(--text-color);
+    font-family: var(--font-choice);
+}
+
+p{
+    margin:0;
+    padding:0;
+    color: var(--text-color);
+    font-family: var(--font-choice);
+    font-size: 16px;
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin:0;
+    padding:0;
+    color: var(--text-color);
+    font-family: var(--font-choice);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+button {
+    font-family: var(--font-choice);
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+/* .container and article are similar */
+article {
+    margin: 0 auto;
+    max-width: calc(var(--article-width) + var(--responsive-padding));
+    padding: var(--responsive-padding);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: calc( var(--article-width) + var(--responsive-padding));
+    padding: var(--responsive-padding);
+}
+
+section {
+    margin: 0 0 1rem 0;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+
+/* xsmall */
+@media (max-width: 576px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+/* small */
+@media (min-width: 576px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+/* medium */
+@media (min-width: 768px) {
+    p {
+        font-size: 18px;
+    }
+}
+
+/* large */
+@media (min-width: 960px) {
+    p {
+        font-size: 18px
+    }
+}
+
+/* xlarge */
+@media (min-width: 1200px) {
+    p {
+        font-size: 18px;
+    }
+}
