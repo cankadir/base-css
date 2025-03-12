@@ -1,7 +1,7 @@
 # Base Css  
 This is a simple css file to deal with common css issues in every project. Intentionally super simple.  
 
-1. Adjusting p font-size based on screensize
+1. adjusting p font-size based on screensize
 2. adjusting h sizes based on rem
 3. Remove all margins and padding from html,body,p and h elements
 4. simple button styling
